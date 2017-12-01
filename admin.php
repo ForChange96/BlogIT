@@ -1,0 +1,12 @@
+<?php
+    session_start();
+    require("config.php");
+    require("application/controller.php");
+    if(isset($_SESSION["username"])){
+        $controller=isset($_GET["controller"])?$_GET["controller"]:"home";
+        $controller="controller_$controller.php";
+        include("view/backend/view_layout.php");
+    }
+    else
+        include("controller/backend/controller_login.php");
+?>

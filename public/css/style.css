@@ -1,0 +1,87 @@
+/* CSS Document */
+body{
+    background-color: #EBEBEB;
+}
+.backend_news_approved_panel{
+    position: relative;
+    margin-top: 30px;
+    padding: 10px 40px 10px 10px;
+}
+.avt{
+    width: 60px;
+    border-radius: 30px;
+}
+.backend_news_approved_panel .name_and_date{
+    padding-top: 12px;
+    height: 60px;
+}
+.backend_news_approved_panel .name_and_date .date{
+    font-size: 12px;
+}
+.backend_news_approved_panel .dropdown_edit_news{
+    position: absolute;
+    right: 15px;
+    top: 15px;
+}
+.backend_news_approved_panel .line{
+    width: 95%;
+    border-top: 1px solid #D3D3D3;
+    margin: 5px 0 5px 0;
+}
+.backend_news_approved_panel .line100{
+    width: 100%;
+    border-top: 1px solid #D3D3D3;
+    margin: 10px 0 5px 0;
+}
+.backend_news_approved_panel .line100_comment_top{
+    width: 100%;
+    border-top: 1px solid #F0F0F0;
+    margin-top: 8px;
+    clear: both;
+}
+.backend_news_approved_panel .news_title{
+    font-weight: bold;
+    text-align: center;
+    line-height: 40px;
+}
+.backend_news_approved_panel .num_like_comment{
+    margin-left: 10px;
+    line-height: 30px;
+    position: relative;
+}
+.backend_comment_panel{
+    margin-top: 10px;
+    padding-left:50px;
+}
+.box_one_comment{
+    position: relative;
+    overflow: visible;
+}
+.backend_comment_panel .dropdown_comment{
+    position: absolute;
+    right: 0px;
+    top: 0px;
+}
+.backend_news_approved_panel .btn_show_hide{
+    float: left;
+    position: absolute;
+    top: 1px;
+    left: 400px;
+    color: #777;
+    font-size: 15px;
+}
+.avt_cmt{
+    width: 40px;
+    border-radius: 20px;
+}
+.box_insert_comment{
+    background-color: #F1F1F1;
+    padding: 8px;
+    margin-top: 5px;
+}
+.button_add_comment{
+    padding-top: 7px;
+    text-align: right;
+}
+
+
